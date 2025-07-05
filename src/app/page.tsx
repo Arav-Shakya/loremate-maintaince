@@ -75,7 +75,7 @@ export default function Home() {
 function DropperCard() {
   const [open, setOpen] = useState(false);
   const [img, setImg] = useState('/grass.png');
-  const images = ['/grass.png', '/job.png', '/world.png', '/dance.png'];
+  const images = ['/grass.png', '/job.png', '/world.png', '/dance.png', '/bruh.png', '/aura.png'];
 
   const handleToggle = () => {
     if (!open) {
