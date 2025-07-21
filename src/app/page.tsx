@@ -27,7 +27,7 @@ export default function Home() {
       flexDirection: 'column'
     }}>
       <h1 style={{ fontSize: '3rem', fontWeight: 'bold' }}>We Are Under Maintenance</h1>
-      <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>We&apos;ll be back soon. Thanks for your patience!</p>
+      <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>This issue is with our database and we have contacted the support team as soon as its resolved we will be back online.</p>
       <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem' }}>
         <a
           href="https://www.reddit.com/r/LoreMateAI/"
@@ -64,6 +64,24 @@ export default function Home() {
           onMouseOut={e => (e.currentTarget.style.background = 'transparent')}
         >
           DISCORD
+        </a>
+        <a
+          href="https://ko-fi.com/loremate"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            background: 'transparent',
+            border: '1px solid white',
+            color: 'white',
+            padding: '0.5rem 1rem',
+            textDecoration: 'none',
+            borderRadius: '5px',
+            transition: 'background 0.3s ease'
+          }}
+          onMouseOver={e => (e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)')}
+          onMouseOut={e => (e.currentTarget.style.background = 'transparent')}
+        >
+          Support Us
         </a>
       </div>
       {/* Dropper Card */}
