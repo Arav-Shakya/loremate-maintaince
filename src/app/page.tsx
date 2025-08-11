@@ -27,7 +27,7 @@ export default function Home() {
       flexDirection: 'column'
     }}>
       <h1 style={{ fontSize: '3rem', fontWeight: 'bold' }}>We Are Under Maintenance</h1>
-      <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>Due to slowness issues, we are currently undergoing maintenance. We figured out its due to improper CPU core utilization. We will be back online really soon.</p>
+      <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>Due to slowness issues, we are currently undergoing maintenance.</p>
       <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem' }}>
         <a
           href="https://www.reddit.com/r/LoreMateAI/"
